@@ -1,0 +1,15 @@
+html,body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    max-width: 99%;
+    max-height: 99%;
+    width: 480px;
+    height: 100vh;
+}
