@@ -1,53 +1,13 @@
- /* @media (max-width: 460px) {
-  body, .container {
-    margin: 0 auto;
-  }
-}  body {
-    margin: 0 ;
-    width: 100vw;
-    height: 100vh;
-} 
-* {
-    box-sizing: border-box;
+
+html, body {
+    width: 100%;
+    height: 100%;
     margin: 0;
+    padding: 0;
+    overflow-y:hidden;
 }
-.container {
-    display: flex;
-    flex-direction: row; 
-    margin: 0; 
-    flex: 0 1 auto;}
-     */
-
-/* .main {
-    background-color: antiquewhite;
-    width: 100%;
-    height: 100%;
-} */
-     .main-text {
-   font-family: "BIZ UDGothic", sans-serif;
-   font-size: 1.2rem;
-   font-weight: 550px;
-   line-height: 30px;
-     } 
-
-   /* .box{
-    margin-top: 5px;
-    width: 850px;
-    height: 300px;
-    background-color: white;
-    border-style: solid;
-    border-color: #8FD14F;
-    border-radius: 49px;
-} 
-    .sidebar{
-    width: 45%;
-    height: 100%;
-} 
-img{
-    width: 100%;
-    height: 100%;    
-} */
-body {
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -60,13 +20,76 @@ body {
 .sidebar {
     flex-grow: 1;
     max-width: 100%;
+    margin: 0;
 }
 .main{
     flex-grow: 3;
     max-width: 100%;
+    margin: 30px;
 }
 img {
-    width: 20vw;
+    width: 25vw;
     height: 100vh;
-  
+    margin: 0;
+}
+.main-text {
+   font-family: "BIZ UDGothic", sans-serif;
+   font-size: 1.2rem;
+   font-weight: 550px;
+   line-height: 30px;
+} 
+
+.box{
+    margin-top: 25px;
+    width: 1050px;
+    height: 350px;
+    background-color: white;
+}
+#title{
+ font-family: "BIZ UDGothic", sans-serif;
+ font-size: 2.5rem;
+ margin-bottom: 15px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 100%;
+    font-family: "BIZ UDGothic", sans-serif;
+    font-size: 1.2rem;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-wrapper {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.form-group input {
+    border: 2px solid #45595A ;
+    width: 350px;
+    height: 47.54px;
+    border-radius: 10.34px;
+    font-family:"BIZ UDGothic", sans-serif; 
+    font-size: 1.2 rem;
+}
+
+#buttons {
+    margin-left: 300px;
+    margin-top: 20px;
+}
+button {
+     width: 250px;
+    height: 50px;
+    border-radius: 10.34px;
+    font-family: "BIZ UDGothic", sans-serif;
+    font-size: 1.5rem;
+    background-color: #8FD14F;
+}
+#txt {
+    margin-top: 10px;
+    font-family: "BIZ UDGothic", sans-serif;
+}
+input :focus-visible {
+    border: 2px solid #8FD14F;
 }
