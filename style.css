@@ -27,7 +27,7 @@ html, body {
     max-width: 100%;
     margin: 30px;
 }
-img {
+#garden {
     width: 25vw;
     height: 100vh;
     margin: 0;
@@ -35,7 +35,7 @@ img {
 .main-text {
    font-family: "BIZ UDGothic", sans-serif;
    font-size: 1.4rem;
-   font-weight: 550px;
+   font-weight: 850px;
    line-height: 30px;
 } 
 
@@ -48,6 +48,7 @@ img {
 #title{
  font-family: "BIZ UDGothic", sans-serif;
  font-size: 2.5rem;
+ font-weight: bold;
  margin-bottom: 15px;
 }
 
@@ -101,3 +102,27 @@ input:user-invalid {
 input:valid {
      border: 2px solid #8FD14F;
 }
+.background {
+    position: absolute;
+    background-color: black;
+    width: 25vw;
+    height: 110px;
+    opacity: 25%;
+    bottom: 60%;
+}
+#odin {
+    position: absolute;
+    width: 70px;
+    bottom: 62%;
+    margin-left: 65px;
+}
+#header {
+    position: absolute;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: white;
+    bottom: 62%;
+    margin-left: 150px;
+}
+
