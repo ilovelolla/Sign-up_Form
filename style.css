@@ -11,15 +11,11 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
 .container {
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    margin: 0;
-}
-.sidebar {
-    flex-grow: 1;
-    max-width: 100%;
     margin: 0;
 }
 .main{
@@ -33,11 +29,12 @@ html, body {
     margin: 0;
 }
 .main-text {
-   font-family: "BIZ UDGothic", sans-serif;
-   font-size: 1.4rem;
-   font-weight: 850px;
+   font-family: "BIZ UDGothic", sans-serif; 
    line-height: 30px;
 } 
+h2 {
+    font-size: 3vh;
+}
 
 .box{
     margin-top: 25px;
@@ -47,9 +44,10 @@ html, body {
 }
 #title{
  font-family: "BIZ UDGothic", sans-serif;
- font-size: 2.5rem;
- font-weight: bold;
  margin-bottom: 15px;
+}
+h1{
+    font-size: 4.9vw;
 }
 
 .form-group label {
@@ -80,8 +78,8 @@ html, body {
     margin-top: 20px;
 }
 button {
-     width: 250px;
-    height: 50px;
+     width: 245px;
+    height: 45px;
     border-radius: 10.34px;
     font-family: "BIZ UDGothic", sans-serif;
     font-size: 1.5rem;
@@ -90,6 +88,7 @@ button {
 #txt {
     margin-top: 10px;
     font-family: "BIZ UDGothic", sans-serif;
+    font-size: 2 vmin;
 }
 input {
    font-size: 1.2rem;
@@ -109,20 +108,33 @@ input:valid {
     height: 110px;
     opacity: 25%;
     bottom: 60%;
+    white-space: nowrap;
+   
 }
 #odin {
     position: absolute;
     width: 70px;
     bottom: 62%;
     margin-left: 65px;
+    white-space: nowrap;
+ 
+    
 }
 #header {
     position: absolute;
     font-family: "Cardo", serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 2.5rem;
     color: white;
     bottom: 62%;
     margin-left: 150px;
+    
 }
-
+.sidebar {
+    position: relative;
+    flex-grow: 1;
+    width: 100%;
+    margin: 0;
+   
+   
+}
